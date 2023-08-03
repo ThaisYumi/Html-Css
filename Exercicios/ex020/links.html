@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: rgb(242, 242, 24);
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: black;
+        }
+
+        a::after {
+            content: ' link';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgoldenrod;
+        }
+
+        .especial {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank" rel="external">Repositorio GitHub</a></li>
+        
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external">Canal do YouTube</a></li>
+
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/" target="_blank" rel="external" class="especial">Site do CursoEmVideo</a></li>
+    </ul>
+</body>
+</html>
