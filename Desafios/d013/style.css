@@ -18,14 +18,14 @@ main {
 }
 
 #telefone {
-    height: 627px;
+    height: 625px;
     width: 311px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    
-    background: url(imagens/frame-iphone.png) no-repeat scroll center center/ contain; 
+
+    background: url(imagens/frame-iphone.png) no-repeat fixed center center/ contain; 
 }
 
 #tela {
@@ -42,7 +42,7 @@ main {
 
 #redes-sociais img {
     width: 50px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.464);
     box-sizing: border-box;
