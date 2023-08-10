@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  
+    menu {
+        background-color: gray;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        text-align: left;
+    }
+    
+    menu a {
+        display: inline-block;
+        background-color: rgb(86, 85, 85);
+    }
+
+    main {
+        width: 70vw;
+        margin-top: 20px;
+    }
+}
